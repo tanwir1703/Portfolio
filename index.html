@@ -1,0 +1,224 @@
+  
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <title>Tanwir Singh</title>
+      <style>
+        header{
+          background: url(img/ban1.jpg);
+          background-size: cover;
+          background-position: center;
+          min-height: 1000px;
+        }
+        @media screen and (max-width: 670px){
+          header{
+            min-height: 500px;
+          }
+        }
+        .section{
+          padding-top: 4vw;
+          padding-bottom: 4vw;
+        }
+        .tabs .indicator{
+          background-color: #1a237e;
+        }
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+          background: transparent;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <!-- navbar -->
+      <header>
+        <nav class="nav-wrapper transparent">
+          <div class="container">
+            <a href="#" class="brand-logo">Tanwir Singh</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#photos">Academics</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="https://www.instagram.com/tanwirsingh/" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
+                <i class="fab fa-instagram"></i>
+              </a></li>
+              <li><a href="https://www.facebook.com/tanwir.singh.77" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a></li>
+              <li><a href="https://github.com/tanwir1703" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github">
+                <i class="fab fa-github"></i>
+              </a></li>
+            </ul>
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="#">Academics</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    
+      <!-- photo / grid -->
+      <section class="container section scrollspy" id="photos">
+        <div class="row">
+          <div class="col s12 l4">
+              <img src="img/ICSE.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1">
+            <h2 class="indigo-text text-darken-4">Secondary</h2>
+            <p>I secured an overall 96.6% score in ICSE class 10th Examination and received a trophy, certificate and complete scholarship for my Higher Secondary Education.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l4 offset-l1 push-l7">
+              <img src="img/ISC.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1 pull-l5 right-align">
+            <h2 class="indigo-text text-darken-4">Higher Secondary</h2>
+            <p>It was difficult to manage both JEE and ISC Examinations and preparation together. However, I managed to score a decent 94.5% in ISC as well as secure a seat in an IIT. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l4">
+              <img src="img/IIT.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1">
+            <h2 class="indigo-text text-darken-4">IIT Kharagpur</h2>
+            <p>The Indian Institute of Technology, Kharagpur is ranked among the top 5 Institutes in India. I am studying 4 years of B.Tech. in Metallurgical and Materials Engineering in IIT and recently completed the first year with an aggregate CGPA of 8.8.</p>
+          </div>
+        </div>
+      </section>
+    
+      <!-- parallax -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/banner3.jpg" alt="" class="responsive-img">
+        </div>
+      </div>
+    
+      <!-- services / tabs -->
+      <section class="section container scrollspy" id="services">
+        <div class="row">
+          <div class="col s12 l4">
+            <h2 class="indigo-text text-darken-4">What I do..</h2>
+            <p>A passionate coder! I love Website Development, App Development and Competitive Coding.</p>
+            <p>Also, I am currently studying at IIT Kharagpur and at the same time, persuing my interests in these fields and extra curricular activities such as cooking, fitness and sports.</p>
+          </div>
+          <div class="col s12 l6 offset-l2">
+            <!-- tabs -->
+            <ul class="tabs">
+              <li class="tab col s4">
+                <a href="#web" class="active indigo-text text-darken-4">Web Development</a>
+              </li>
+              <li class="tab col s4">
+                <a href="#app" class="indigo-text text-darken-4">App Development</a>
+              </li>
+              <li class="tab col s4">
+                <a href="#code" class="indigo-text text-darken-4">Competitive Coding</a>
+              </li>
+            </ul>
+            <div id="web" class="col s12">
+                <p class="flow-text indigo-text text-darken-4">Web Development</p>
+                <p>I have done projects on HTML, CSS, JavaScript, Node JS, Socket IO, PHP, MySql, AJAX and also frameworks such as materialize and bootstrap. Moreover, I have coded this website myself using materialise, css and jquery.</p>
+                <p>Its been almost 6 to 8 months that I have been into Web D. and learned most of my skills during the Summer Training with Spring Fest, IIT Kharagpur.</p>
+            </div>
+            <div id="app" class="col s12">
+                <p class="flow-text indigo-text text-darken-4">App Development</p>
+                <p>App Development is another one of my favourite fields. I am learning these skills online. </p>
+                <p>I have started learning about this recently and use Java for coding on Android Studio, however, I am trying to develop my skills in order to become a great app developer.</p>
+            </div>
+            <div id="code" class="col s12">
+                <p class="flow-text indigo-text text-darken-4">Competitive Coding</p>
+                <p>Competitive Coding is something that I like to do to develop great coding mind and logic for the future chance of becoming a debugger. </p>
+                <p>I have been coding on hackerrank and earned five stars currently. The primary languages that I use are Java and c. Moreover, I also like to do some basic problems on Project Euler and learn about data structures from GeeksForGeeks.  </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- parallax -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/stars.jpg" alt="" class="responsive-img">
+        </div>
+      </div>
+    
+      <!-- contact form -->
+      <section class="section container scrollspy" id="contact">
+        <div class="row">
+          <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+            <p>Hello Everyone, I have posted the links to some of my websites and projects in my Resume.</p>
+            <p>I am currently looking for an opportunity to work as an intern. My field of expertise is Web Development.</p>
+            <p>If You like my work, You can get in touch with me via E-Mail, Phone or through social media.</p>
+            <p>I have mentioned my email id, mobile number and other necessary contact details on this website as well as on my resume.</p>
+            <h5 class="grey-text tex-darken-4">Thank You.</h5>
+          </div>
+          <div class="col s12 l5 offset-l2">
+                <h3 class="indigo-text text-darken-4">Contact Details</h5>
+                <ul>
+                  <h5><li><a class="grey-text text-darken-3" href="#">tanwir1703@gmail.com</a></li></h5>
+                  <h5><li><a class="grey-text text-darken-2" href="#">tanwir1703@iitkgp.ac.in</a></li></h5>
+                  <h5><li><a class="grey-text text-darken-1" href="#">+91 70045 97880</a></li></h5>
+                  <h5><li><a class="grey-text text-darken-0" href="#">+91 78083 12082</a></li></h5>
+                </ul>
+          </div>
+        </div>
+      </section>
+    
+      <!-- footer -->
+      <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5>About Me</h5>
+              <p>I am Tanwir Singh, a first year undergraduate B-tech student at the IIT-Kharagpur. My field of engineering is Metallurgical & Materials engineering(4-year), the same as that of the GOOGLE CEO Mr. Sundar Pichai.I come from a very humble background living in a small town known as The Steel City - Jamshedpur.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/tanwir.singh.77">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://github.com/tanwir1703">Github</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/tanwirsingh/">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+          <div class="container center-align">&copy; 2020 Tanwir Web Development....</div>
+        </div>
+      </footer>
+    
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+    
+          $('.sidenav').sidenav();
+          $('.materialboxed').materialbox();
+          $('.parallax').parallax();
+          $('.tabs').tabs();
+          $('.datepicker').datepicker({
+            disableWeekends: true,
+            yearRange: 1
+          });
+          $('.tooltipped').tooltip();
+          $('.scrollspy').scrollSpy();
+    
+        });
+      </script>
+    </body>
+    </html>
+    
